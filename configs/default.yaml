@@ -1,0 +1,30 @@
+
+paths:
+  raw_data_dir: data/raw
+  processed_dir: data/processed
+  artifacts_dir: artifacts
+  models_dir: models
+
+debug:
+  small_sample: false
+  sample_size: 5000
+
+classification:
+  model_name: cardiffnlp/twitter-roberta-base-sentiment-latest
+  epochs: 1
+  learning_rate: 5e-5    # <-- no quotes here
+  batch_size: 16
+  max_length: 256
+
+
+
+clustering:
+  n_clusters: 5
+  method: "tfidf"  # "tfidf" or "sbert"
+  sbert_model: "sentence-transformers/all-MiniLM-L6-v2"
+  max_features: 20000
+
+summarization:
+  model_name: "facebook/bart-large-cnn"  # or "t5-small"
+  max_input_tokens: 1024
+  max_output_tokens: 256

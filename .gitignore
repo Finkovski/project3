@@ -1,0 +1,39 @@
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Data & artifacts (keep repo small)
+data/raw/
+data/processed/
+artifacts/
+reports/figures/
+
+# Big local outputs
+*.csv
+*.csv.gz
+*.json.gz
+*.parquet
+
+# Streamlit / secrets
+.streamlit/secrets.toml
+
+# Caches
+.cache/
+huggingface/
+hf_cache/
+
+# Deliverables & archives (keep repo tiny)
+deliverables/
+*.zip
+*.bin
+*.pt
+*.onnx
+*.h5
