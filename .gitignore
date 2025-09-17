@@ -37,3 +37,7 @@ deliverables/
 *.pt
 *.onnx
 *.h5
+
+# --- allow small demo CSVs for the hosted app ---
+!app_data/
+!app_data/*.csv
