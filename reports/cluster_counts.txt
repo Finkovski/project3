@@ -1,0 +1,15 @@
+Counts per cluster:
+cluster
+0      1864
+1     85457
+2    393431
+3     11210
+4      5615
+
+Avg rating per cluster:
+cluster
+0    2.02
+1    5.00
+2    4.06
+3    4.82
+4    3.00
