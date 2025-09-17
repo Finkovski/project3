@@ -193,4 +193,5 @@ with tab3:
                 )
             except Exception as e:
                 st.error("Failed to generate summary.")
-                st.exception(e)
+                st.exception(e
+)
